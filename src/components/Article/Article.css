@@ -14,12 +14,12 @@
   background-color: #D3D3D3;
 }
 
-.article-section:hover p.article-abstract,
-.article-section:hover p.article-byline {
+.article-section:hover .article-abstract,
+.article-section:hover .article-byline {
   color: black;
 }
 
-h4.article-section-name {
+.article-section-name {
   color: crimson;
   width: 100%;
   margin: .5rem 0 .5rem 1rem;
@@ -29,25 +29,25 @@ h4.article-section-name {
   width: 100%;
 }
 
-h3.article-title {
+.article-title {
   margin-left: 1rem;
   margin: .5rem 0 .5rem 1rem;
 }
 
-p.article-abstract,
-p.article-byline {
+.article-abstract,
+.article-byline {
   margin: .5rem 0 .5rem 1rem;
   color: grey;
 }
 
-img.article-image {
+.article-image {
   width: 35%;
   margin: .5rem 0 .5rem 1rem;
 }
 
-p.article-byline,
-p.article-abstract,
-h3.article-title,
-h4.article-section-name {
+.article-byline,
+.article-abstract,
+.article-title,
+.article-section-name {
   text-align: left;
 }
