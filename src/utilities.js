@@ -1,3 +1,5 @@
+import nextId from 'react-id-generator';
+
 export const cleanResponse = (response) => {
   const result = {};
   result.section = response.section;
@@ -5,6 +7,7 @@ export const cleanResponse = (response) => {
   result.copyright = response.copyright;
   result.articles = response.results.map((article) => {
     return {
+      id: nextId(),
       section: article.section,
       byline: article.byline,
       subsection: article.subsection,
