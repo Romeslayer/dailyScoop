@@ -1,10 +1,11 @@
-import './Main.css'
-import React from 'react'
+import './Main.css';
+import React from 'react';
+import nextId from 'react-id-generator';
 
 function Main({ articles, section }) {
   const buildArticles = () => {
     if(articles) {
-     return articles.map((article) => <p key={article.title + article.abstract}>{article.title}</p>)
+     return articles.map((article) => <p key={nextId()}>{article.title}</p>)
     }
   }
 
