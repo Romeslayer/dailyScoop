@@ -4,4 +4,16 @@
 
 .single-article {
   margin-top: 3rem;
+  width: 3/5vw;
+}
+
+.single-img {
+  width: 27vw;  
+}
+.read-more {
+  margin-bottom: 2rem;
+}
+.content { 
+  width: 100%;
+  display: flex;
 }
