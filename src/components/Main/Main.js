@@ -12,7 +12,7 @@ function Main({ articles, section, id }) {
   }
 
   const buildTitle = () => {
-    if(!section) return <h2>Today's Top Stories:</h2>
+    if(!section) return <h2 className="title-today">Today's Top Stories:</h2>
     if(id) return '';
     return (
       <h2 className="title-today">Today's {section} Stories:</h2>
