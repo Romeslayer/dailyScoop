@@ -39,6 +39,7 @@ function App() {
 
   const [articles, setArticles] = useState({});
   let { selectedSection } = useParams();
+  let { id } = useParams();
   
 
   useEffect(() => {
@@ -60,7 +61,7 @@ function App() {
   return (
     <div className="App">
       <Header sections={sections}></Header>
-      {<Main articles={articles.data} section={articles.name}></Main>}
+      {<Main articles={articles.data} section={articles.name} id={id} ></Main>}
     </div>
   );
 }
