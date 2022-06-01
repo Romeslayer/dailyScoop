@@ -9,7 +9,7 @@ export const cleanResponse = (response) => {
       byline: article.byline,
       subsection: article.subsection,
       abstract: article.abstract,
-      image: article.multimedia[0],
+      image: article.multimedia,
       published_date: article.published_date,
       url: article.url,
       title: article.title,
