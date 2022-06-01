@@ -37,7 +37,7 @@ function App() {
     "world"
   ])
 
-  const [articles, setArticles] = useState([]);
+  const [articles, setArticles] = useState({});
   let { selectedSection } = useParams();
   
 
@@ -45,12 +45,12 @@ function App() {
     if(selectedSection) {
       fetchTopStories(selectedSection).then((data) => {
         let cleanData = cleanResponse(data);
-        setArticles(cleanData.articles)
+        setArticles({ data: cleanData.articles, name: cleanData.section})
       })
     } else {
       fetchTopStories('home').then((data) => {
         let cleanData = cleanResponse(data);
-        setArticles(cleanData.articles)
+        setArticles({data: cleanData.articles, name: undefined})
       })
     }
   }, [selectedSection])
@@ -60,7 +60,7 @@ function App() {
   return (
     <div className="App">
       <Header sections={sections}></Header>
-      <Main articles={articles} section={selectedSection}></Main>
+      {<Main articles={articles.data} section={articles.name}></Main>}
     </div>
   );
 }
