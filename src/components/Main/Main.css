@@ -1,0 +1,10 @@
+main {
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.title-today {
+  width: 100%;
+}
