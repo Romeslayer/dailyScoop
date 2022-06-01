@@ -1,5 +1,4 @@
 export const cleanResponse = (response) => {
-  console.log(response)
   const result = {};
   result.section = response.section;
   result.num_results = response.num_results;
