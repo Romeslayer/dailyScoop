@@ -53,8 +53,6 @@ function App() {
         setArticles(cleanData.articles)
       })
     }
-
-    console.log(articles)
   }, [selectedSection])
 
 
