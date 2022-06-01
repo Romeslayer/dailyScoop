@@ -15,6 +15,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}></Route>
+      <Route path=":selectedSection" element={<App />}></Route>
     </Routes>
   </BrowserRouter>
 );
