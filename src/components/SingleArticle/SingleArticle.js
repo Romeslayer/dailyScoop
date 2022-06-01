@@ -11,9 +11,9 @@ function SingleArticle ({article}) {
   return (
     <div className="single-article">
       <div className="content">
-      <h4 className="article-section-name">{article.section}</h4>
-      <h2 className="article-title">{article.title}</h2>
-      <h3 className="article-byline">{article.byline}</h3>
+      <h4 className="article-section-name full">{article.section}</h4>
+      <h2 className="article-title full">{article.title}</h2>
+      <h3 className="article-byline ">{article.byline}</h3>
       <button className="read-more" onClick={() => {
         window.open(article.url)
       }}> Read More</button>
