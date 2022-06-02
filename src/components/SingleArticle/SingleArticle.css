@@ -1,0 +1,31 @@
+.black {
+  color: black;
+}
+
+.single-article {
+  margin-top: 3rem;
+  width: 3/5vw;
+  border-style: groove;
+  border-width: 0px 1.5px;
+  padding: 2rem;
+}
+
+
+.full {
+  width: 100%;
+}
+
+.single-img {
+  width: 27vw;  
+}
+.read-more {
+  margin-bottom: 2rem;
+  margin-right: 25%;
+  margin-left: 1rem;
+}
+.content { 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

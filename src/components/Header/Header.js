@@ -1,6 +1,6 @@
 import './Header.css'
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 function Header({ sections }) {
   const sectionLinks = sections.map((section) => {
@@ -18,10 +18,10 @@ function Header({ sections }) {
   
   )
   return (
-    <>
-      <h1>The Daily Scoop</h1>
+    <header>
+      <Link to='/'> <h1>The Daily Scoop</h1> </Link>
       <div>{sectionLinks}</div>
-    </>
+    </header>
   )  
 }
 
