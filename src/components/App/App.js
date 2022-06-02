@@ -38,20 +38,27 @@ function App() {
   ])
 
   const [articles, setArticles] = useState({});
+  const [error, setError] = useState(null)
   let { selectedSection } = useParams();
   let { id } = useParams();
   
 
   useEffect(() => {
+    setError(null)
     if(selectedSection) {
       fetchTopStories(selectedSection).then((data) => {
         let cleanData = cleanResponse(data);
         setArticles({ data: cleanData.articles, name: cleanData.section})
       })
+        .catch((e) => {
+          setError(e.message)
+        })
     } else {
       fetchTopStories('home').then((data) => {
         let cleanData = cleanResponse(data);
         setArticles({data: cleanData.articles, name: undefined})
+      }).catch((e) => {
+        setError(e.message)
       })
     }
   }, [selectedSection])
@@ -61,7 +68,7 @@ function App() {
   return (
     <div className="App">
       <Header sections={sections}></Header>
-      {<Main articles={articles.data} section={articles.name} id={id} ></Main>}
+      {<Main articles={articles.data} section={articles.name} id={id} error={error}></Main>}
     </div>
   );
 }
