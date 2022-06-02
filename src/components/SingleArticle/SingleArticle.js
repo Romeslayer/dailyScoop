@@ -4,8 +4,6 @@ import React from 'react'
 
 function SingleArticle ({article}) {
   
-  console.log(article)
-
   const publishedDate = new Date(article.published_date)
 
   return (

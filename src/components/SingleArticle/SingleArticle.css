@@ -5,7 +5,12 @@
 .single-article {
   margin-top: 3rem;
   width: 3/5vw;
+  border-style: groove;
+  border-width: 0px 1.5px;
+  padding: 2rem;
 }
+
+
 .full {
   width: 100%;
 }
