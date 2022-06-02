@@ -20,12 +20,16 @@ function Main({ articles, section, id }) {
   }
 
   const buildSingleArticle = (id) => {
-    let article = articles.find((art) => art.id === id);
+    let article;
+
+    if(articles) {
+      article = articles.find((art) => art.id === id);
+    }
 
     if(article) {
       return <SingleArticle article={article}/>
     }
-
+    
     return <h2>Sorry this page does not exist</h2>
   }
 
