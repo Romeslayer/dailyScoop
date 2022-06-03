@@ -7,7 +7,7 @@ import SingleArticle from '../SingleArticle/SingleArticle.js'
 function Main({ articles, section, id, error }) {
   const buildArticles = () => {
     if(articles && !id && !error) {
-     return articles.map((article) => <Link to={`${article.id}`}> <Article key={article.id} details={article} /> </Link>)
+     return articles.map((article) => <Link key={article.id} to={`${article.id}`}> <Article  details={article} /> </Link>)
     }
   }
 
