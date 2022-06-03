@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# The Daily Scoop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Your one stop shop to get your Scoop of the news. The Daily Scoop access the New York Time's [Top Stories API](https://developer.nytimes.com/) to display all of the top stories currently being ran by The New York Times.
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+If you would like to run the application locally you would need to:
 
-### `npm start`
+1. Clone down the Repo
+2. `cd` into the directory
+3. Run `npm i` to install all dependencies
+4. Run `npm start`, which will run the application on `localhost:3000`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Goals
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Access NYT API to display a list of articles
+- Display a detailed view for each article
+- Listed articles need to link to the detailed article view
+- Implement a sort feature
 
-### `npm test`
+## Process
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Inspiration
 
-### `npm run build`
+#### Politico
+![Screen Shot 2022-06-02 at 7 45 55 PM](https://user-images.githubusercontent.com/20838033/171770930-24e5572a-f13b-4c96-8d17-29bb49857777.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### New York Times
+![Screen Shot 2022-06-02 at 7 47 11 PM](https://user-images.githubusercontent.com/20838033/171771022-83e02437-4063-426b-9353-1eb8d5418b76.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Wireframe
 
-### `npm run eject`
+![Screen Shot 2022-06-02 at 7 40 51 PM](https://user-images.githubusercontent.com/20838033/171770465-047316a5-16d9-46db-880e-f350186ed452.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Wireframe](https://www.figma.com/file/0qk7IKAXDZ8XB9foixLR3Z/DailyScoop?node-id=0%3A1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Component Architecture
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screen Shot 2022-06-02 at 7 33 46 PM](https://user-images.githubusercontent.com/20838033/171770359-23458594-8c0e-42ad-9ba9-65bec51c0db8.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Architecture](https://workflowy.com/s/component-architectu/J6MjELdAdg3yT28T)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 

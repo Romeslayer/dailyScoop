@@ -1,0 +1,198 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2022-06-02T12:45:23-04:00",
+  "num_results": 3,
+  "results": [
+      {
+          "section": "business",
+          "subsection": "energy-environment",
+          "title": "Europe’s Russian Oil Ban Could Mean a New World Order for Energy",
+          "abstract": "The effort could hurt Russia but could also help drive up already high oil prices, hurting the global economy and enriching energy companies.",
+          "url": "https://www.nytimes.com/2022/06/01/business/energy-environment/europe-russia-oil-global-energy.html",
+          "uri": "nyt://article/08020ad3-7636-52db-bb52-420e289ce3c8",
+          "byline": "By Clifford Krauss",
+          "item_type": "Article",
+          "updated_date": "2022-06-02T10:54:25-04:00",
+          "created_date": "2022-06-01T15:21:27-04:00",
+          "published_date": "2022-06-01T15:21:27-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Russian Invasion of Ukraine (2022)",
+              "Oil (Petroleum) and Gasoline",
+              "International Trade and World Market",
+              "Embargoes and Sanctions",
+              "Prices (Fares, Fees and Rates)",
+              "Natural Gas",
+              "Ships and Shipping",
+              "Energy and Power"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/business/00oil-shuffle01/merlin_207604179_a97cfeed-f71d-43ca-9acf-55c206ef8710-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Energy experts say Europe’s push to find alternative oil supplies will leave no part of the world untouched. ",
+                  "copyright": "An Rong Xu for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/business/00oil-shuffle01/00oil-shuffle01-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Energy experts say Europe’s push to find alternative oil supplies will leave no part of the world untouched. ",
+                  "copyright": "An Rong Xu for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/business/00oil-shuffle01/00oil-shuffle01-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Energy experts say Europe’s push to find alternative oil supplies will leave no part of the world untouched. ",
+                  "copyright": "An Rong Xu for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/38DWhFF"
+      },
+      {
+          "section": "us",
+          "subsection": "politics",
+          "title": "A Disturbing New Pattern in Mass Shootings: Young Assailants",
+          "abstract": "Six of the nine deadliest mass shootings in the United States since 2018 were by people who were 21 or younger, a shift from earlier decades.",
+          "url": "https://www.nytimes.com/2022/06/02/us/politics/mass-shootings-young-men-guns.html",
+          "uri": "nyt://article/bd822d4e-0e7f-56d7-af51-287beebd949b",
+          "byline": "By Glenn Thrush and Matt Richtel",
+          "item_type": "Article",
+          "updated_date": "2022-06-02T12:03:44-04:00",
+          "created_date": "2022-06-02T03:00:12-04:00",
+          "published_date": "2022-06-02T03:00:12-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "School Shootings and Armed Attacks",
+              "Mass Shootings",
+              "Buffalo, NY, Shooting (May 14, 2022)",
+              "Uvalde, Tex, Shooting (May 24, 2022)",
+              "Youth",
+              "Teenagers and Adolescence",
+              "Men and Boys",
+              "Mental Health and Disorders",
+              "Gun Control"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [
+              "United States"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/us/politics/01dc-youth-guns-1/merlin_207857178_e1825d6e-62c8-44ff-9f65-ece004bceec1-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1365,
+                  "width": 2048,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A memorial for the victims of Robb Elementary School in Uvalde, Texas, on Wednesday.",
+                  "copyright": "Ivan Pierre Aguirre for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/us/politics/01dc-youth-guns-1/merlin_207857178_e1825d6e-62c8-44ff-9f65-ece004bceec1-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A memorial for the victims of Robb Elementary School in Uvalde, Texas, on Wednesday.",
+                  "copyright": "Ivan Pierre Aguirre for The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/us/politics/01dc-youth-guns-1/merlin_207857178_e1825d6e-62c8-44ff-9f65-ece004bceec1-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "A memorial for the victims of Robb Elementary School in Uvalde, Texas, on Wednesday.",
+                  "copyright": "Ivan Pierre Aguirre for The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/3x7i5Dc"
+      },
+      {
+          "section": "us",
+          "subsection": "",
+          "title": "Uvalde Teacher Spoke With Husband, a Police Officer, Before She Died",
+          "abstract": "Eva Mireles’s husband was an officer with the school district’s Police Department. But he was not allowed to enter the place where his wife and her students were under attack.",
+          "url": "https://www.nytimes.com/2022/06/01/us/uvalde-shooting.html",
+          "uri": "nyt://article/03f373f3-bfd4-5f12-ab77-fa28241cc456",
+          "byline": "By J. David Goodman",
+          "item_type": "Article",
+          "updated_date": "2022-06-02T10:41:16-04:00",
+          "created_date": "2022-06-01T19:11:26-04:00",
+          "published_date": "2022-06-01T19:11:26-04:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Uvalde, Tex, Shooting (May 24, 2022)"
+          ],
+          "org_facet": [
+              "Police Department (Uvalde, Tex)",
+              "Public Safety Department (Tex)",
+              "Robb Elementary School (Uvalde, Tex)"
+          ],
+          "per_facet": [
+              "Mireles, Eva (1978-2022)",
+              "Martinez Gonzales, Celia",
+              "Arredondo, Pedro"
+          ],
+          "geo_facet": [
+              "Uvalde (Tex)"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/us/01uvalde-shooting-1/01uvalde-shooting-1-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 2048,
+                  "width": 1366,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Eva Mireles, who taught fourth graders at Robb Elementary School, was one of 21 victims.",
+                  "copyright": " "
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/us/01uvalde-shooting-1/01uvalde-shooting-1-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 399,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Eva Mireles, who taught fourth graders at Robb Elementary School, was one of 21 victims.",
+                  "copyright": " "
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/06/01/us/01uvalde-shooting-1/01uvalde-shooting-1-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "Eva Mireles, who taught fourth graders at Robb Elementary School, was one of 21 victims.",
+                  "copyright": " "
+              }
+          ],
+          "short_url": "https://nyti.ms/3O6qywb"
+      }  
+  ]
+}
